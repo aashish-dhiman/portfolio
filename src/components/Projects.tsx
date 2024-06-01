@@ -47,7 +47,16 @@ const Projects = () => {
       })}
       {/* Show More Button */}
       {ProjectList.length > 4 && (
-        <div className="relative mt-10 flex justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{
+          //   once: true,
+          //   amount: 1,
+          // }}
+          transition={{ duration: 0.8 }}
+          className="relative mt-10 flex justify-center"
+        >
           <button
             onClick={toggleShowAll}
             className="peer rounded-full border-2 border-textWhite bg-transparent px-5 py-2.5 text-center text-sm font-medium text-textWhite transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-darkHover"
@@ -55,10 +64,10 @@ const Projects = () => {
             {showAll ? "That's Enough!" : "Still Not Impressed?"}
           </button>
 
-          <span className="absolute left-1/2 top-[130%] text-textLight -translate-x-1/2 -translate-y-1/2 text-xs opacity-0 transition-opacity duration-200 ease-in peer-hover:opacity-100">
+          <span className="absolute left-1/2 top-[130%] -translate-x-1/2 -translate-y-1/2 text-xs text-textLight opacity-0 transition-opacity duration-200 ease-in peer-hover:opacity-100">
             {showAll ? "Click to collapse" : "Click to show more"}
           </span>
-        </div>
+        </motion.div>
       )}
     </section>
   );
