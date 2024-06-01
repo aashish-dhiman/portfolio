@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website! This project showcases my skills, projects, and experiences. It is built using Next.js, Framer Motion, Tailwind CSS, and TypeScript.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Check out the live demo of the portfolio website [here](https://portfolio-aashish.vercel.app).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- Interactive animations using Framer Motion
+- Responsive design with Tailwind CSS
+- TypeScript for type safety and improved developer experience
+- Showcasing projects, skills, and contact information
+- Dynamic project loading with a "Show More" button
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js**: A React framework for building server-side rendered applications
+- **Framer Motion**: A library for creating animations and transitions in React
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development
+- **TypeScript**: A superset of JavaScript that adds static types
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To get started with the project, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/aashish-dhiman/portfolio.git
+    cd portfolio
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Create a `.env.local` file in the root directory and add your environment variables:
+    ```env
+    NEXT_PUBLIC_FORM_ID=your_form_id_from_formspree
+    ```
+
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+5. Open your browser and navigate to `http://localhost:3000`.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or find any bugs, please open an issue or submit a pull request.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+
+Thank you for visiting my portfolio website!

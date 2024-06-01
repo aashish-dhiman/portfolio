@@ -15,7 +15,7 @@ const Contact = () => {
 
   const [show, setShow] = useState(false);
   const formId = process.env.NEXT_PUBLIC_FORM_ID;
-  console.log("formId: ", formId);
+
   const [state, handleSubmit] = useForm(formId!);
   const [formData, setFormData] = useState({
     email: "",
@@ -30,6 +30,17 @@ const Contact = () => {
   const handleChange = (e: any) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  useEffect(() => {
+    if (state.succeeded) {
+      setShow(true);
+      setFormData({
+        email: "",
+        subject: "",
+        message: "",
+      });
+    }
+  }, [state.succeeded]);
 
   return (
     <section className="sm:px-6 sm:pt-[80px]" id="contact">
