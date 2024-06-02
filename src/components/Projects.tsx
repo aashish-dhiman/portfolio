@@ -59,12 +59,12 @@ const Projects = () => {
         >
           <button
             onClick={toggleShowAll}
-            className="peer rounded-full border-2 border-textWhite bg-transparent px-5 py-2.5 text-center text-sm font-medium text-textWhite transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-darkHover"
+            className="rounded-full border-2 border-textWhite bg-transparent px-5 py-2.5 text-center text-sm font-medium text-textWhite transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-darkHover"
           >
             {showAll ? "That's Enough!" : "Still Not Impressed?"}
           </button>
 
-          <span className="absolute left-1/2 top-[130%] -translate-x-1/2 -translate-y-1/2 text-xs text-textLight opacity-0 transition-opacity duration-200 ease-in peer-hover:opacity-100">
+          <span className="absolute left-1/2 top-[125%] -translate-x-1/2 -translate-y-1/2 text-xs text-textLight/60 transition-opacity duration-200 ease-in">
             {showAll ? "Click to collapse" : "Click to show more"}
           </span>
         </motion.div>
