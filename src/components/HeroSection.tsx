@@ -14,7 +14,6 @@ import {
 } from "react-scroll";
 import Image from "next/image";
 import hero from "@/assets/hero.png";
-import hero2 from "@/assets/hero2.png";
 
 const HeroSection = () => {
   const refContent = useRef(null);
@@ -58,7 +57,7 @@ const HeroSection = () => {
               500,
             ]}
             speed={50}
-            className="text-base font-[500] md:text-xl xl:text-2xl"
+            className="text-sm font-medium md:text-xl xl:text-2xl"
             wrapper="span"
             cursor={true}
             repeat={Infinity}

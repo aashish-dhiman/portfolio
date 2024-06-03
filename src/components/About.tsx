@@ -79,7 +79,7 @@ const About = () => {
             I&apos;m{" "}
             <span className="font-semibold text-heading"> Aashish Dhiman </span>
             , a passionate software developer with over 5 months of experience
-            as an intern with startups from India and the US. I have hands-on
+            as an intern with startups from India and US. I have hands-on
             experience in crafting seamless web applications, with expertise
             spanning across frontend technologies like React.js and Next.js,
             coupled with backend proficiency in Node.js and Express.js. <br />{" "}

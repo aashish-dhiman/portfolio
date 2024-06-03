@@ -218,7 +218,7 @@ const Contact = () => {
         </motion.div>
       </div>
 
-      <footer className="flex items-center p-6 text-center">
+      <footer className="flex items-center text-center">
         <span className="mx-auto text-textPara">
           © {new Date().getFullYear()} - Aashish Dhiman
         </span>

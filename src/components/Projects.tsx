@@ -65,7 +65,7 @@ const Projects = () => {
           </button>
 
           <span className="absolute left-1/2 top-[125%] -translate-x-1/2 -translate-y-1/2 text-xs text-textLight/60 transition-opacity duration-200 ease-in">
-            {showAll ? "Click to collapse" : "Click to show more"}
+            {showAll ? "Click to collapse" : "Click to see more"}
           </span>
         </motion.div>
       )}
