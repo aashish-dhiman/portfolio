@@ -8,20 +8,20 @@ import forkify from "@/assets/projects/forkify.png";
 import bankist from "@/assets/projects/bankist.png";
 
 export const ProjectList = [
-  // {
-  //   id: 1,
-  //   name: "Jobify",
-  //   description: [
-  //     "Utilized Next.js and Prisma ORM with PostgreSQL to create a robust and seamless job board platform.",
-  //     "Designed a responsive and visually stunning interface using Tailwind CSS and Shadcn UI; implemented Vercel Blob for efficient image storage.",
-  //     "Integrated Google Gemini to automate job descriptions, significantly improving content quality and reducing manual input.",
-  //   ],
-  //   img: jobify,
-  //   //max 6 tech stack
-  //   tech: ["Next.js", "Tailwind CSS", "Gemini", "PostgreSQL", "Prisma"],
-  //   source: "https://github.com/aashish-dhiman/Jobify",
-  //   demo: "https://jobify-aashish.vercel.app/",
-  // },
+  {
+    id: 1,
+    name: "Jobify",
+    description: [
+      "Utilized Next.js and Prisma ORM with PostgreSQL to create a robust and seamless job board platform.",
+      "Designed a responsive and visually stunning interface using Tailwind CSS and Shadcn UI; implemented Vercel Blob for efficient image storage.",
+      "Integrated Google Gemini to automate job descriptions, significantly improving content quality and reducing manual input.",
+    ],
+    img: jobify,
+    //max 6 tech stack
+    tech: ["Next.js", "Tailwind CSS", "Gemini", "PostgreSQL", "Prisma"],
+    source: "https://github.com/aashish-dhiman/Jobify",
+    demo: "https://jobify-aashish.vercel.app/",
+  },
   {
     id: 2,
     name: "Flickart",
