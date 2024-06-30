@@ -57,7 +57,7 @@ const RightView = ({ id, name, description, img, tech, source, demo }: any) => {
           <h3 className="text-heading font-bold">{name}</h3>
         </div>
         {/* description absolute */}
-        <div className="group right-0 top-[40px] z-10 mt-1 w-full rounded-lg bg-bgDark shadow-sm shadow-slate-800 p-2 lg:absolute lg:w-[500px] space-y-1">
+        <div className="group right-0 top-[40px] z-10 mt-1 w-full rounded-lg bg-bgDark shadow-sm shadow-slate-800 p-2 lg:absolute lg:w-[500px]">
           {description?.map((item: any, i: number) => (
             <div key={i} className="flex items-start gap-1 sm:gap-2">
               <ArrowRight className={" h-5 w-4 flex-none"} />
