@@ -14,7 +14,7 @@ export const ProjectList = [
     description: [
       "Utilized Next.js and Prisma ORM with PostgreSQL to create a robust and seamless job board platform.",
       "Designed a responsive and visually stunning interface using Tailwind CSS and Shadcn UI; implemented Vercel Blob for efficient image storage.",
-      "Integrated Google Gemini to automate job descriptions, significantly improving content quality and reducing manual input.",
+      "Automated job descriptions using Google Gemini, reducing manual efforts; implemented an admin panel to streamline job management processes.",
     ],
     img: jobify,
     //max 6 tech stack
