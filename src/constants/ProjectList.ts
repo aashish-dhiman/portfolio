@@ -18,7 +18,7 @@ export const ProjectList = [
     ],
     img: jobify,
     //max 6 tech stack
-    tech: ["Next.js", "Tailwind CSS", "Gemini", "PostgreSQL", "Prisma"],
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "PostgreSQL", "Prisma"],
     source: "https://github.com/aashish-dhiman/Jobify",
     demo: "https://jobify-aashish.vercel.app/",
   },
