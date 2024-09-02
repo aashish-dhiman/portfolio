@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 export default function Epoch() {
   const tasks = [
     {
-      text: "Developed an AI-driven trading platform for streamlined stock analysis, integrating a financial chatbot and a comprehensive stock dashboard. Focused on enhancing UX with real-time data updates and interactive features. Delivered a robust, scalable solution meeting the complex needs of stock traders.",
+      text: "Engineered an AI-driven trading platform with an integrated chatbot and stock dashboard using Next.js, TypeScript, Tailwind CSS, Framer Motion, WebSocket, and React Query. Enhanced stock analysis capabilities by 40% and improved user engagement by 25%.",
     },
     {
-      text: "Successfully migrated the codebase from pages router to app router, optimizing the UI and achieving a 20% performance increase.",
+      text: "Migrated the codebase from pages router to app router in Next.js, optimized the UI and boosted the performance by 20%. Led a cross-functional team of 3 individuals.",
     },
     {
-      text: "Led a cross-functional team of 3 members, fostering efficient collaboration and successfully guiding the team towards achieving project objectives.",
+      text: "Implemented backend functionality to manage API keys for chatbot access, streamlining secure updates and access across all requests.",
     },
   ];
   return (
@@ -50,7 +50,7 @@ export default function Epoch() {
               <ArrowRight className={"h-5 w-4 flex-none"} />
               <span className="font-bold text-heading">
                 Technologies used: Next.js, TypeScript, Tailwind CSS, React
-                Query, and Web Socket.
+                Query, Web Socket, Python.
               </span>
             </div>
           </div>

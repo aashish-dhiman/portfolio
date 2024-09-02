@@ -38,21 +38,21 @@ const About = () => {
           ref={refContent}
           initial={{
             opacity: 0,
-            x: -100,
+            y: 20,
             scale: 0.8,
-            filter: "blur(6px)",
+            filter: "blur(10px)",
           }}
           animate={
             inViewContent
               ? {
                   opacity: 1,
-                  x: 0,
+                  y: 0,
                   scale: 1,
                   filter: "blur(0px)",
                 }
-              : { opacity: 1, x: -100, scale: 0.8 }
+              : { opacity: 0, y: 20, scale: 0.8, filter: "blur(10px)" }
           }
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
           className="relative"
         >
           <Image
@@ -66,19 +66,19 @@ const About = () => {
         </motion.div>
         <motion.div
           ref={refContent}
-          initial={{ opacity: 0, x: 100, scale: 0.8 }}
+          initial={{ opacity: 0, y: 30, scale: 0.9 }}
           animate={
             inViewContent
-              ? { opacity: 1, x: 0, scale: 1 }
-              : { opacity: 0, x: 100, scale: 0.8 }
+              ? { opacity: 1, y: 0, scale: 1 }
+              : { opacity: 0, y: 30, scale: 0.9 }
           }
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
           className="flex-1 xl:px-4"
         >
           <p>
             I&apos;m{" "}
             <span className="font-semibold text-heading"> Aashish Dhiman </span>
-            , a passionate software developer with over 5 months of experience
+            , a passionate software developer with over 6 months of experience
             as an intern with startups from India and US. I have hands-on
             experience in crafting seamless web applications, with expertise
             spanning across frontend technologies like React.js and Next.js,

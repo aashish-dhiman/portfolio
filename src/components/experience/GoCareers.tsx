@@ -5,10 +5,13 @@ import { motion } from "framer-motion";
 export default function GoCareers() {
   const tasks = [
     {
-      text: "Single-handedly driving the development of a cutting-edge job board platform with a major focus on enhancing UX, resulting in a 40% increase in user engagement.",
+      text: "Developed a job board platform using Next.js, TypeScript, Redux, Shadcn UI, and Tailwind CSS, leading to a 60% increase in user engagement and integrated Google Ads to boost ad revenue by 20%.",
     },
     {
-      text: "Engineered a complete codebase migration from React.js to Next.js, enhancing optimization and performance metrics by a notable 30%, revolutionizing user experience and website speed for 100k+ monthly traffic.",
+      text: "Led a migration from React.js to Next.js, improving performance by 30%, reducing load times by 50% with SSR, and handling 100k+ monthly traffic.",
+    },
+    {
+      text: "Enhanced SEO with Open Graph meta tags, and developed an admin panel and blog section, boosting content management efficiency by 40% and increasing user engagement by 60% in three months.",
     },
   ];
   return (
@@ -30,7 +33,7 @@ export default function GoCareers() {
               <span>Go Careers</span>
 
               {/* Date */}
-              <span>Apr 2024 - Present</span>
+              <span>Apr 2024 - July 2024</span>
             </div>
           </div>
           <div className="flex flex-col space-y-1 text-sm sm:text-base">
