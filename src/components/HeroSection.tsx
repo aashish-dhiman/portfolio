@@ -21,7 +21,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="h-full w-full pb-8 pt-12 sm:px-6 sm:pb-10 md:pt-24"
+      className="h-full w-full pb-8 pt-16 sm:px-6 sm:pb-10 md:pt-24"
       id="intro"
     >
       <div className="flex flex-col items-center justify-center gap-4 lg:flex-row lg:items-start">
@@ -83,7 +83,7 @@ const HeroSection = () => {
             Stick around to see some of my work.
           </motion.p>
 
-          <div className="flex flex-col items-center gap-4 sm:flex-row ">
+          <div className="flex flex-col items-center gap-8 sm:gap-4 sm:flex-row ">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -93,7 +93,7 @@ const HeroSection = () => {
                 to="contact"
                 smooth={true}
                 duration={1000}
-                className="duration-400 w-full cursor-pointer rounded-full bg-white px-6 py-3 text-center text-lg font-bold text-darkHover transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-gray-300 sm:w-fit md:mr-4"
+                className="duration-400 w-full cursor-pointer rounded-full bg-white px-6 py-3 text-center text-lg font-bold text-darkHover transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-gray-300 sm:w-fit"
               >
                 Hire Me
               </ScrollLink>
@@ -109,7 +109,7 @@ const HeroSection = () => {
                 href="https://drive.google.com/file/d/1wEDlamry-sl0mYrE4tbxitZaHy-s7jSX/view"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="duration-400 w-full rounded-full border-2 border-white bg-transparent px-6 py-3 text-center text-lg font-medium text-white transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-darkHover sm:w-fit md:mr-4"
+                className="duration-400 w-full rounded-full border-2 border-white bg-transparent px-6 py-3 text-center text-lg font-medium text-white transition-all duration-500 ease-in-out hover:scale-[0.98] hover:bg-darkHover sm:w-fit"
               >
                 Download CV
               </a>
