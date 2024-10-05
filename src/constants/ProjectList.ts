@@ -33,8 +33,8 @@ export const ProjectList = [
     img: buzzbuy,
     //max 6 tech stack
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    source: "https://github.com/aashish-dhiman/E-Commerce",
-    demo: "https://flickart-aashish.vercel.app/",
+    source: "https://github.com/aashish-dhiman/BuzzBuy",
+    demo: "https://buzz-buy.vercel.app/",
   },
   {
     id: 3,
