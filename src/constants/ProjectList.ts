@@ -1,5 +1,5 @@
 import jobify from "@/assets/projects/jobify.png";
-import flickart from "@/assets/projects/flickart.png";
+import buzzbuy from "@/assets/projects/buzzbuy.png";
 import discord from "@/assets/projects/discord.png";
 import bytebrainhub from "@/assets/projects/bytebrainhub.png";
 import whisper from "@/assets/projects/whisper.png";
@@ -24,13 +24,13 @@ export const ProjectList = [
   },
   {
     id: 2,
-    name: "Flickart",
+    name: "BuzzBuy",
     description: [
-      "Implemented JWT based authentication, an extensive product catalog, and efficient cart management with Stripe-powered payments.",
+      "Implemented JWT based authentication, an extensive product catalog, optimistic UI updates, and efficient cart management with Stripe-powered payments.",
       "Enabled users to easily access order history and provided admins with a dedicated dashboard for efficient management.",
       "Utilized responsive design, Bcrypt-secured passwords, and Cloudinary for seamless image storage and a secure shopping experience.",
     ],
-    img: flickart,
+    img: buzzbuy,
     //max 6 tech stack
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
     source: "https://github.com/aashish-dhiman/E-Commerce",
