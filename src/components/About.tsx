@@ -207,14 +207,14 @@ const About = () => {
                   <SiGeeksforgeeks className="size-6" />
                 </a>
 
-                <a
+                {/* <a
                   href="https://www.codechef.com/users/aashish_dhiman"
                   target="_blank"
                   title="Codechef"
                   className="flex items-center gap-1 rounded-md bg-slate-800 px-3 py-2 text-sm font-medium transition-all duration-200 ease-in-out hover:scale-[1.05] "
                 >
                   <SiCodechef className="size-6" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
