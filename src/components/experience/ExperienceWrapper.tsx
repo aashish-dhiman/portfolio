@@ -3,6 +3,8 @@ import CompaniesBar from "./CompaniesBar";
 import GoCareers from "./GoCareers";
 import Epoch from "./Epoch";
 import PW from "./PW";
+import TribeLink from "./TribeLink";
+import Blitz from "./Blitz";
 
 interface Props {}
 
@@ -11,6 +13,10 @@ const ExperienceWrapper = (props: Props) => {
 
   const GetDescription = () => {
     switch (DescriptionJob) {
+      case "Blitz":
+        return <Blitz />;
+      case "TribeLink":
+        return <TribeLink />;
       case "GoCareers":
         return <GoCareers />;
       case "Epoch":

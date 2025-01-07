@@ -53,10 +53,10 @@ const CompaniesBar = (props: any) => {
         <div className="flex flex-row lg:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Go Careers"
-            BarPosition={48}
+            CompanyName="Blitz"
+            BarPosition={0}
             BarAbovePosition={1}
-            DescriptionJob="GoCareers"
+            DescriptionJob="Blitz"
             CompanyNameBackgroundColorGreen={[
               true,
               false,
@@ -69,10 +69,9 @@ const CompaniesBar = (props: any) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Epoch"
-            BarPosition={97}
-            BarAbovePosition={129}
-            DescriptionJob="Epoch"
+            CompanyName="TribeLink"
+            BarPosition={48}
+            DescriptionJob="TribeLink"
             CompanyNameBackgroundColorGreen={[
               false,
               true,
@@ -85,16 +84,47 @@ const CompaniesBar = (props: any) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="Physics Wallah"
-            BarPosition={145}
-            BarAbovePosition={257}
-            DescriptionJob="PhysicsWallah"
+            CompanyName="Go Careers"
+            BarPosition={90}
+            DescriptionJob="GoCareers"
             CompanyNameBackgroundColorGreen={[
               false,
               false,
               true,
               false,
               false,
+              false,
+            ]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={3}
+            CompanyName="Epoch"
+            BarPosition={143}
+            // BarAbovePosition={129}
+            DescriptionJob="Epoch"
+            CompanyNameBackgroundColorGreen={[
+              false,
+              false,
+              false,
+              true,
+              false,
+              false,
+            ]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={4}
+            CompanyName="Physics Wallah"
+            BarPosition={195}
+            BarAbovePosition={257}
+            DescriptionJob="PhysicsWallah"
+            CompanyNameBackgroundColorGreen={[
+              false,
+              false,
+              false,
+              false,
+              true,
               false,
             ]}
             setDescriptionJob={props.setDescriptionJob}

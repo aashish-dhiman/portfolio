@@ -30,7 +30,7 @@ export default function PW() {
               <span>Physics Wallah</span>
 
               {/* Date */}
-              <span>Feb 2024 - Present</span>
+              <span>Feb 2024 - Oct 2024</span>
             </div>
           </div>
           <div className="flex flex-col space-y-1 text-sm sm:text-base">

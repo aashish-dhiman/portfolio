@@ -25,9 +25,13 @@ export default function Epoch() {
         <div className="flex w-full flex-col space-y-3 lg:max-w-xl xl:max-w-2xl ">
           <div className="spacey-y-2 flex flex-col">
             {/* Title */}
-            <span className="text-base font-medium tracking-wide text-gray-100 sm:text-2xl">
-              Full Stack Engineer Intern
-            </span>
+            <div className="flex items-center justify-between">
+              <span className="text-base font-medium tracking-wide text-gray-100 sm:text-2xl">
+                Full Stack Engineer Intern
+              </span>
+              <span className="text-sm">Remote</span>
+            </div>
+
             <div className="flex flex-col items-start justify-between font-mono text-sm font-bold text-heading sm:flex-row sm:items-center sm:text-base">
               {/* Company name */}
               <span>Epoch - (California-US)</span>
