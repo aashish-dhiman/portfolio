@@ -6,7 +6,7 @@ interface Props {
 }
 
 const CompaniesBar = (props: any) => {
-  const [barPosition, setBarPosition] = React.useState<Number>(48);
+  const [barPosition, setBarPosition] = React.useState<Number>(0);
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] =
     React.useState<boolean[]>([true, false, false, false, false, false, false]);
@@ -55,7 +55,7 @@ const CompaniesBar = (props: any) => {
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="Blitz"
             BarPosition={0}
-            BarAbovePosition={1}
+            BarAbovePosition={0}
             DescriptionJob="Blitz"
             CompanyNameBackgroundColorGreen={[
               true,
