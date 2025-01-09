@@ -25,7 +25,7 @@ const ExperienceWrapper = (props: Props) => {
         return <PW />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("GoCareers");
+  const [DescriptionJob, setDescriptionJob] = React.useState("Blitz");
   return (
     <section
       className="flex w-full flex-col items-center justify-center space-y-4
